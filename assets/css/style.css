@@ -700,15 +700,15 @@ strong.green {
 
 a.toplinkcenter {
     text-decoration: none;
-	color:#ffff;
+	color:#FFD700;
 }
-div#headingTwo {
-    padding: 0px 0px 0px 10px;
-}
+
 p.journycontent {
-    font-family: "Poppins", sans-serif;
     color: #fff;
     letter-spacing: 1px;
+    padding-top: 25px;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
 }
 .jumbotron.masthead {
     margin-top: 30px;
@@ -746,24 +746,25 @@ p.chattodocontent {
     letter-spacing: 1px;
     line-height: 160%;
     color: #fff;
+	font-size: 16px;
 }
 span.boldcontent {
     font-weight: 800;
 }
 p.hackercontent {
-    color: #fff;
+    color: #000;
     font-size: 17px;
-    padding-top: 45px;
-	
+    padding-top: 100px;
+    text-align: center;
 }
 p.hackercontent2 {
-    color: #fff;
+    color: #000;
     font-size: 17px;
    font-style: italic;
-	
+	text-align: center;
 }
 span.hackerbox {
-    color: #ff005a;
+    color: #381dcf;
 	cursor: pointer;
 }
 span.highlitedcontent {
@@ -800,7 +801,8 @@ ul.listbox li {
     padding-top: 15px;
 }
 p.boxtext4 {
-     font-size: 16px;
+     font-size: 14px;
+	 padding-top: 15px;
 	
 }
 span.italiccontent {
@@ -818,9 +820,10 @@ p.buttonscontent {
 p.imagecontent2 {
    padding: 22px;
     font-size: 15px;
+	text-align: center;
 }
 img.imgicon {
-    width: 97px;
+    width: 130px;
     padding: 12px;
 }
 div#headingfive {
@@ -848,12 +851,13 @@ h4.panel-title {
 }
 ul.buttonscontent5 {
     padding-left: 15px;
+	font-size: 16px;
 }
 ul.buttonscontent6 {
     padding-left: 20px;
 }
 section.py1 {
-    background: #eeeaea;
+    background: #f6f4f4;
     padding: 30px;
 }
 ol.grayboxitems {
@@ -865,10 +869,10 @@ p.buttonscontent7 {
 }
 p.buttonscontent8 {
     font-size: 16px;
-	color:#ffff;
+	color:#fff;
 }
 section.py2 {
-    background: #343b43;
+   background: #343b43;
 	padding: 30px;
 }
 p.buttonscontent9 {
@@ -895,7 +899,7 @@ p.buttonscontent11 {
     color: gray;
 }
 p.buttonscontent12 {
-    color: #ffff;
+    color: #fff;
     font-weight: 400;
     font-size: 16px;
 }
@@ -914,10 +918,10 @@ p.buttonscontent13 {
 p.buttonscontent14 {
     font-weight: 400;
     font-size: 20px;
-	color:#ffff;
+	color:#000;
 }
 span.highlightedarea {
-    background-color: yellow;
+     background-color: #e76f294d;
 }
 p.footerheading {
 	font-family: 'Open Sans';
@@ -941,6 +945,7 @@ section#py4 {
 p.fotterlastcontent {
     color: #ffff;
     padding-left: 25px;
+	font-size: 15px;
 }
 a.copyrightcontent {
     color: #000;
@@ -972,12 +977,141 @@ img.boxtreeimge {
     background: #343b43;
     padding: 15px;
 }
+
 }
 
 
+blockquote.font-1.quote_headline.formulation {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
 
+section.section2 {
+    background-color: #343b43;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
-
-
-
-
+p.headline.headline_extra.step1 {
+    font-family: Poppins, sans-serif;
+    letter-spacing: 1px;
+    line-height: 160%;
+    color: #ffffff;
+	font-weight: 700;
+    font-size: 17px;
+    padding-top: 15px;
+}
+p.problemfoundertext {
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+blockquote.morderndeviltext {
+    font-size: 24px;
+    text-align: center;
+    color: #ffff;
+    text-align: center;
+    font-family: "Marck Script", cursive;
+    letter-spacing: 1px;
+    line-height: 180%;
+}
+.youtubelinks {
+    padding-top: 30px;
+}
+h6.managementteamheading {
+    text-align: center;
+}
+.boxtree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h5.toedlink {
+    text-align: center;
+    padding: 30px;
+}
+span.boldcontent2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 600;
+}
+p.journycontentsecond {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Marck Script', cursive;
+    color: #fff;
+}
+p.journycontent2 {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 1px;
+	color: #ffff;
+}
+.logoiconsundertab {
+   
+    text-align: center;
+}
+p.buttonscontentcenter {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+}
+p.buttonscontentcenterbold {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 900;
+}
+p.buttonscontentreaderheading {
+    font-size: 17px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h6.buttonscontentcentersimplicity {
+    text-align: center;
+}
+h5.centersimplicity {
+    text-align: center;
+}
+ol.italiccontent {
+    font-size: 16px;
+    font-style: italic;
+}
+span.highlightedpink {
+    /* color: #ff005a; */
+    background-color: #e76f294d;
+}
+@media screen and (device-width: 360px) and (device-height: 640px) 
+{
+	.boxtree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+img.founder-image {
+    width: 100%;
+}
+.blackbox {
+    background: black;
+    padding: 24px;
+}
+}
+span.hackerback {
+    background-color: #fff;
+    padding: 10px;
+}
+p.hackercontent2 {
+    color: #fff;
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+}
+p.buttonscontent14 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
