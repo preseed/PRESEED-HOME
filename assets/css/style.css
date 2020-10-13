@@ -374,10 +374,14 @@ ul.links {
 
     }
      #image_ecell{
-
-    height: 50px;
-    width: 100px;
-}
+      height: 50px;
+      width: 100px;
+    }
+    .yoga_quote {
+      font-size: 1.2em;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
 }
 @media(min-width:768px) {
     .sheep_cover {
