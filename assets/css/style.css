@@ -699,11 +699,11 @@ strong.green {
 }	
 
 a.toplinkcenter {
-    text-decoration: none;
+  text-decoration: none;
 	color:#FFD700;
 }
 
-p.journycontent {
+span.journycontent {
     color: #fff;
     letter-spacing: 1px;
     padding-top: 25px;
@@ -1003,7 +1003,7 @@ p.headline.headline_extra.step1 {
     font-size: 17px;
     padding-top: 15px;
 }
-p.problemfoundertext {
+.problemfoundertext {
     color: #fff;
     padding: 10px;
     font-size: 20px;
