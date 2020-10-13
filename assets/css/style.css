@@ -902,7 +902,7 @@ p.buttonscontent11 {
     font-size: 20px;
     color: gray;
 }
-p.buttonscontent12 {
+.buttonscontent12 {
     color: #fff;
     font-weight: 400;
     font-size: 16px;
@@ -919,11 +919,7 @@ p.buttonscontent13 {
     font-weight: 400;
     font-size: 16px;
 }
-p.buttonscontent14 {
-    font-weight: 400;
-    font-size: 20px;
-	color:#000;
-}
+
 span.highlightedarea {
      background-color: #e76f294d;
 }
