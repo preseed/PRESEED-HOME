@@ -382,6 +382,12 @@ ul.links {
       padding-left: 20px;
       padding-right: 20px;
     }
+    span.hackerback {
+      padding: 0px !important;
+    }
+    img.footersheepimg {
+      width: 80% !important;
+    }
 }
 @media(min-width:768px) {
     .sheep_cover {
@@ -961,7 +967,7 @@ p.faqcontent {
     font-weight: 400;
 }
 img.footersheepimg {
-    width: 100%;
+    width: 90%;
 }
 img.boxtreeimge {
     width: 100%;
