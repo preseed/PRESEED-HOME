@@ -1,4 +1,5 @@
 /*! Author: Divya Ranjan*/
+/*! Author: Divya Ranjan*/
 @import "https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins:300,400,500,600,700";
 @import "https://fonts.googleapis.com/css?family=Marck+Script";
 * {
@@ -48,7 +49,7 @@
   );
   background-image: -webkit-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: linear-gradient(to bottom, #353c44 0%, #23252b 7000%);
-X}
+}
 
 html {
   width: 100%;
@@ -207,7 +208,7 @@ ul.links {
   text-shadow: 1px 1px 1px #2B2B2B;
   letter-spacing: 2px;
   line-height: 180%;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -313,10 +314,21 @@ ul.links {
     padding-top: 13px !important;
   }
   #we_inspire_h {
-    margin:90px auto 20px;
+    margin:80px auto 10px;
+    height: 53vh;
+    font-size: 1em !important;
+
+  }
+  .mob-font-1em{
+    font-size: 1em;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
   .logo img{
-    margin: 10vh auto 20vh;
+    margin: auto;
+    height: auto;
+    width: 10%;
+    margin-bottom: 7px;
   }
 }
 }
@@ -378,7 +390,7 @@ ul.links {
       width: 100px;
     }
     .yoga_quote {
-      font-size: 1.2em;
+      font-size: 0.8em;
       padding-left: 20px;
       padding-right: 20px;
     }
@@ -386,7 +398,7 @@ ul.links {
       padding: 0px !important;
     }
     img.footersheepimg {
-      width: 80% !important;
+      width: 40% !important;
     }
 }
 @media(min-width:768px) {
@@ -720,6 +732,12 @@ span.journycontent {
     font-family: 'Marck Script', cursive;
     font-size: 25px;
 }
+span.journycontent_accordion  {
+  color: rgba(0, 0, 0, 0.966);
+  letter-spacing: 1px;
+  font-family: 'Marck Script', cursive;
+  font-size: 25px;
+}
 .jumbotron.masthead {
     margin-top: 30px;
 }
@@ -773,8 +791,14 @@ p.hackercontent2 {
    font-style: italic;
 	text-align: center;
 }
+p.hackercontent3 {
+    color: #FFD700;
+    font-size: 17px;
+   font-style: italic;
+	text-align: center;
+}
 span.hackerbox {
-    color: #381dcf;
+    text-decoration: underline;
 	cursor: pointer;
 }
 span.highlitedcontent {
@@ -930,22 +954,32 @@ span.highlightedarea {
      background-color: #e76f294d;
 }
 p.footerheading {
-	font-family: 'Open Sans';
-    font-size: 1.9em;
-    color: #ff005a;
-    text-shadow: 2.5px 2.5px 18px #ff005a;
+	  font-family: 'Open Sans';
+    font-size: 1em;
+    color: #ffc400;
+    text-shadow: 2.5px 2.5px 18px #ffbb00;
     font-style: italic;
     letter-spacing: 2px;
     line-height: 180%;
 
+}
+.footerheading {
+  text-decoration: none;
+  text-align: center;
+  color: #ffc400;
+  text-shadow: 2.5px 2.5px 18px #ffd900;
+}
+.footerheading:hover {
+  color: #ffc400;
+  text-shadow: 4px 4px 20px #ffd900;
 }
 section#py4 {
    
 	background: #343b43;
 	padding: 60px;
 }
-.blackbox {
-	 background: black;
+.greybox {
+	 background: rgb(160, 160, 160);
 	 padding: 55px;
 }
 p.fotterlastcontent {
@@ -967,7 +1001,7 @@ p.faqcontent {
     font-weight: 400;
 }
 img.footersheepimg {
-    width: 90%;
+    width: 25%;
 }
 img.boxtreeimge {
     width: 100%;
@@ -1014,6 +1048,10 @@ p.headline.headline_extra.step1 {
     padding: 10px;
     font-size: 20px;
 }
+.problemfoundertext_accordion {
+  color: rgba(0, 0, 0, 0.966);
+  font-size: 20px;
+}
 blockquote.morderndeviltext {
     font-size: 24px;
     text-align: center;
@@ -1023,6 +1061,7 @@ blockquote.morderndeviltext {
     letter-spacing: 1px;
     line-height: 180%;
 }
+
 .youtubelinks {
     padding-top: 30px;
 }
@@ -1101,9 +1140,9 @@ span.highlightedpink {
 img.founder-image {
     width: 100%;
 }
-.blackbox {
-    background: black;
-    padding: 24px;
+.greybox {
+  background: rgb(160, 160, 160);
+  padding: 24px;
 }
 }
 span.hackerback {
@@ -1120,4 +1159,7 @@ p.buttonscontent14 {
     font-weight: 400;
     font-size: 20px;
     color: #fff;
+}
+.black{
+  color: #000 !important;
 }
