@@ -314,7 +314,7 @@ ul.links {
   }
   #we_inspire_h {
     margin:80px auto 10px;
-    height: 53vh;
+    height: 56vh;
     font-size: 1em !important;
 
   }
@@ -324,7 +324,18 @@ ul.links {
     margin-bottom: 0 !important;
   }
   
+  .mob-font-1em-x{
+    font-size: 1em;
+  }
+  @media only screen and (max-width:750px){
+  .mob-margin-1{
+    margin-bottom: -18px;
 
+  }
+  .mob-margin-2{
+    margin-top:-25px;
+  }
+}
   .logo img{
     margin: auto;
     height: auto;
