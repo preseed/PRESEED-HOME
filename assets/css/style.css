@@ -323,6 +323,8 @@ ul.links {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
+  
+
   .logo img{
     margin: auto;
     height: auto;
@@ -1160,5 +1162,11 @@ p.buttonscontent14 {
     color: #fff;
 }
 .black{
+  color: #000 !important;
+}
+.pinkbtnheading{
+  color: #ff005a !important;
+}
+.pinkbtnheading:hover{
   color: #000 !important;
 }
