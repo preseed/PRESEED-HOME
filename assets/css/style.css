@@ -326,6 +326,9 @@ ul.links {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
+  .mob-font-lessthan1em {
+    font-size: 0.6em;
+  }
 
   .mob-font-1em-x {
     font-size: 1em;
