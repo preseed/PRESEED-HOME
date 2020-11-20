@@ -329,7 +329,10 @@ ul.links {
   .mob-font-lessthan1em {
     font-size: 0.6em;
   }
-
+  .mob-part2-btns {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
   .mob-font-1em-x {
     font-size: 1em;
   }
