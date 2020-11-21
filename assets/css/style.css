@@ -430,6 +430,10 @@ ul.links {
     margin-left: 8em !important;
     margin-right: 8em !important;
   }
+  .ideal-logo{
+    width: 15%;
+    height: 10%;
+  }
   .sheep_cover {
     height: 100%;
     padding-top: 24%;
@@ -1341,6 +1345,10 @@ p.buttonscontent14 {
   .lap-sec {
     margin-left: 8px !important;
     margin-right: 8px !important;
+  }
+  .ideal-logo{
+    width: 40%;
+    height: 35%;
   }
 }
 @media only screen and (min-width: 750px) {
