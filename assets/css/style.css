@@ -320,8 +320,6 @@ ul.links {
   }
   .mob-font-1em {
     font-size: 1em;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
   }
   .mob-font-lessthan1em {
     font-size: 0.6em;
@@ -336,6 +334,10 @@ ul.links {
 
   .mob-margin-1 {
     margin-bottom: -18px;
+  }
+  .mob-weins-margin {
+    margin-bottom: -20px;
+    margin-top: 20px !important;
   }
   .mob-margin-2 {
     margin-top: -25px;
@@ -419,6 +421,10 @@ ul.links {
   }
 }
 @media (min-width: 768px) {
+  .lap-btn-size{
+    margin-left:28em !important; 
+    margin-right:28em !important;
+  }
   .sheep_cover {
     height: 100%;
     padding-top: 24%;
@@ -1321,4 +1327,10 @@ p.buttonscontent14 {
 }
 .pinkbtnheading:hover {
   color: #000 !important;
+}
+@media only screen and (max-width:750px){
+  .lap-btn-size{
+    margin-left:2em !important; 
+    margin-right:2em !important;
+  }
 }
