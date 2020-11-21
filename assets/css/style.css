@@ -281,9 +281,6 @@ ul.links {
 }
 
 @media (min-width: 768px) {
-  .mobile-cover-lastpara {
-    display: none;
-  }
   .laptop-cover-lastpara {
     display: block;
   }
@@ -342,9 +339,6 @@ ul.links {
   }
   .mob-margin-2 {
     margin-top: -25px;
-  }
-  .mobile-cover-lastpara {
-    display: block;
   }
   .laptop-cover-lastpara {
     display: none;
