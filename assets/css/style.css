@@ -178,6 +178,7 @@ ul.links {
   margin: 150px auto 20px;
   text-align: center;
   color: #fff;
+  height: 90vh;
 }
 .sub_quote {
   color: #fff;
@@ -421,9 +422,9 @@ ul.links {
   }
 }
 @media (min-width: 768px) {
-  .lap-btn-size{
-    margin-left:28em !important; 
-    margin-right:28em !important;
+  .lap-btn-size {
+    margin-left: 28em !important;
+    margin-right: 28em !important;
   }
   .sheep_cover {
     height: 100%;
@@ -1328,9 +1329,14 @@ p.buttonscontent14 {
 .pinkbtnheading:hover {
   color: #000 !important;
 }
-@media only screen and (max-width:750px){
-  .lap-btn-size{
-    margin-left:2em !important; 
-    margin-right:2em !important;
+@media only screen and (max-width: 750px) {
+  .lap-btn-size {
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .lap-weins {
+    margin-top: 9em !important;
   }
 }
