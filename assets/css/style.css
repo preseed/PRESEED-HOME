@@ -427,8 +427,8 @@ ul.links {
     margin-right: 28em !important;
   }
   .lap-sec {
-    margin-left: 8em !important;
-    margin-right: 8em !important;
+    margin-left: 12em !important;
+    margin-right: 12em !important;
   }
   .ideal-logo{
     width: 35%;
@@ -1064,8 +1064,9 @@ ul.buttonscontent6 {
 }
 section.py1 {
   background: #f6f4f4;
-  padding: 30px;
-}
+  padding: 20px;
+} 
+
 ol.grayboxitems {
   font-style: italic;
 }
@@ -1350,8 +1351,8 @@ p.buttonscontent14 {
     margin-right: 2em !important;
   }
   .lap-sec {
-    margin-left: 8px !important;
-    margin-right: 8px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
   .ideal-logo{
     width: 50%;
