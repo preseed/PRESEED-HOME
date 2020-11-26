@@ -30,7 +30,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 980px) {
   .intro {
     background-attachment: scroll;
   }
@@ -281,7 +281,7 @@ ul.links {
   font-size: 11px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .laptop-cover-lastpara {
     display: block;
   }
@@ -388,7 +388,7 @@ ul.links {
   background-size: cover;
   -o-background-size: cover;
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 980px) {
   .sheep_cover {
     background-attachment: scroll;
   }
@@ -421,7 +421,7 @@ ul.links {
     width: 40% !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .lap-btn-size {
     margin-left: 28em !important;
     margin-right: 28em !important;
