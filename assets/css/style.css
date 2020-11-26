@@ -305,9 +305,18 @@ ul.links {
     margin-left: 3%;
   }
 }
+@media only screen and (min-width: 767px) {
+
+  .mob-br{
+    display:none;
+  }
+}
 @media only screen and (max-width: 767px) {
   .menu_img {
     padding-left: 10px;
+  }
+  .mob-br{
+    display: block;
   }
   .sm-links {
     float: right;
