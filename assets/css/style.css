@@ -430,13 +430,13 @@ ul.links {
     margin-left: 12em !important;
     margin-right: 12em !important;
   }
-  .ideal-logo{
+  .ideal-logo {
     width: 35%;
     height: 30%;
     margin-left: 4em;
     margin-right: 4em;
   }
-  .seed-logo{
+  .seed-logo {
     width: 30%;
     height: auto;
     justify-content: center;
@@ -1065,7 +1065,7 @@ ul.buttonscontent6 {
 section.py1 {
   background: #f6f4f4;
   padding: 20px;
-} 
+}
 
 ol.grayboxitems {
   font-style: italic;
@@ -1354,13 +1354,13 @@ p.buttonscontent14 {
     margin-left: 10px !important;
     margin-right: 10px !important;
   }
-  .ideal-logo{
+  .ideal-logo {
     width: 50%;
     height: 55%;
     margin-left: auto;
     margin-right: auto;
   }
-  .seed-logo{
+  .seed-logo {
     width: 100%;
     height: auto;
   }
@@ -1369,4 +1369,26 @@ p.buttonscontent14 {
   .lap-weins {
     margin-top: 9em !important;
   }
+}
+.fa-ig {
+  position: relative;
+  left: -1.3em;
+  top: -4.3em;
+  color: #ff005a;
+  font-size: 5em !important;
+}
+@media only screen and (max-width:800px){
+  .fa-ig {
+    position: relative;
+    left: -1.3em;
+    top: -1.8em;
+    color: #ff005a;
+    font-size: 2em !important;
+    z-index: 99999;
+  }
+}
+.fa-ig:hover {
+
+  color: #000000;
+
 }
