@@ -1412,3 +1412,15 @@ p.buttonscontent14 {
   height: 35em;
 }
 }
+.preseed-logo-theme-style{
+  font-size: 1.5em;
+ color: #ffd700;
+}
+.highlight-black{
+  background-color: #000;
+}
+.desc{
+  font-size: x-small;
+  color: rgba(0, 0, 0, 0.589);
+  font-weight: 300;
+}
