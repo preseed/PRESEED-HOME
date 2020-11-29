@@ -1424,3 +1424,11 @@ p.buttonscontent14 {
 #myModal{
   z-index: 9999;
 }
+.btn-no{
+  background-color: rgba(17, 17, 17, 0.568);
+  color: rgb(238, 237, 237);
+  }
+.btn-no:hover{
+  background-color: #ffd700;
+  color: #000;
+}
