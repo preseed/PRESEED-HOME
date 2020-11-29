@@ -1411,7 +1411,7 @@ p.buttonscontent14 {
 }
 .preseed-logo-theme-style {
   font-size: 1.5em;
-  color: #ffd700;
+  color: #ffc400;
 }
 .highlight-black {
   background-color: #000;
@@ -1429,6 +1429,6 @@ p.buttonscontent14 {
   color: rgb(238, 237, 237);
   }
 .btn-no:hover{
-  background-color: #ffd700;
+  background-color: #ffc400;
   color: #000;
 }
