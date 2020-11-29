@@ -306,16 +306,15 @@ ul.links {
   }
 }
 @media only screen and (min-width: 767px) {
-
-  .mob-br{
-    display:none;
+  .mob-br {
+    display: none;
   }
 }
 @media only screen and (max-width: 767px) {
   .menu_img {
     padding-left: 10px;
   }
-  .mob-br{
+  .mob-br {
     display: block;
   }
   .sm-links {
@@ -1380,16 +1379,16 @@ p.buttonscontent14 {
   }
 }
 .fa-ig {
-  position: relative;
-  left: -1.3em;
-  top: -4.3em;
+  position: absolute;
+  right: 5em;
+  top: 1.2em;
   color: #ff005a;
   font-size: 5em !important;
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width: 800px) {
   .fa-ig {
     position: relative;
-    left: -1.3em;
+    left: -1.2em;
     top: -1.8em;
     color: #ff005a;
     font-size: 2em !important;
@@ -1397,30 +1396,31 @@ p.buttonscontent14 {
   }
 }
 .fa-ig:hover {
-
   color: #000000;
-
 }
 
-.iframe-yt{
+.iframe-yt {
   width: 100%;
   height: auto;
 }
-@media only screen and (min-width:900px){
-.iframe-yt{
-  width: 100%;
-  height: 35em;
+@media only screen and (min-width: 900px) {
+  .iframe-yt {
+    width: 100%;
+    height: 35em;
+  }
 }
-}
-.preseed-logo-theme-style{
+.preseed-logo-theme-style {
   font-size: 1.5em;
- color: #ffd700;
+  color: #ffd700;
 }
-.highlight-black{
+.highlight-black {
   background-color: #000;
 }
-.desc{
+.desc {
   font-size: x-small;
   color: rgba(0, 0, 0, 0.589);
   font-weight: 300;
+}
+#myModal{
+  z-index: 9999;
 }
