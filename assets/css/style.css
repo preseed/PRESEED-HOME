@@ -56,7 +56,7 @@ html {
 }
 .logo img {
   display: block;
-  margin: 8vh auto;
+  margin: 7vh auto;
 }
 /* -----------------------------------------
 blockquote {
@@ -358,7 +358,7 @@ ul.links {
     margin: auto;
     height: auto;
     width: 10%;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
   }
 }
 
