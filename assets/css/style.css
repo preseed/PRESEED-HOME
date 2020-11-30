@@ -3,6 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Marck+Script";
 * {
   font-family: "Poppins", sans-serif;
+
 }
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 .intro {
@@ -202,8 +203,9 @@ ul.links {
 }
 .yoga_quote {
   color: #fff;
-  text-shadow: 1px 1px 1px #2b2b2b;
+  text-shadow: 1px 1px 1px #0000009d;
   letter-spacing: 2px;
+  font-weight: 300;
   line-height: 180%;
   font-size: 1em;
   padding-left: 10px;
@@ -1178,8 +1180,9 @@ p.fotterlastcontent {
   font-size: 15px;
 }
 a.copyrightcontent {
-  color: #000;
-  font-weight: 400;
+  color: rgba(0, 0, 0, 0.794);
+  font-weight: 300;
+  font-size: 1em;
 }
 .d-flex.justify-content-center {
   display: flex;
@@ -1347,12 +1350,7 @@ p.buttonscontent14 {
 .black {
   color: #000 !important;
 }
-.pinkbtnheading {
-  color: #ff005a !important;
-}
-.pinkbtnheading:hover {
-  color: #000 !important;
-}
+
 @media only screen and (max-width: 750px) {
   .lap-btn-size {
     margin-left: 2em !important;
@@ -1431,4 +1429,14 @@ p.buttonscontent14 {
 .btn-no:hover{
   background-color: #ffc400;
   color: #000;
+}
+.pinkbtnheading {
+  color: #ff005a !important;
+}
+.pinkbtnheading:hover {
+  color: #000 !important;
+}
+.krma{
+color: rgb(255, 255, 255);
+font-weight: 500;
 }
