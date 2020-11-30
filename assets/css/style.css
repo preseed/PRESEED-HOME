@@ -1424,11 +1424,11 @@ p.buttonscontent14 {
 .btn-no {
   background-color: #ffc400;
 
-  color: rgb(238, 237, 237);
+  color: rgb(0, 0, 0);
 }
 .btn-no:hover {
   background-color: rgba(17, 17, 17, 0.568);
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 .pinkbtnheading {
   color: #ff005a !important;
