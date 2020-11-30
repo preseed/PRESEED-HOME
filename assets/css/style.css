@@ -1427,7 +1427,7 @@ p.buttonscontent14 {
 }
 .btn-no:hover {
   background-color: rgba(17, 17, 17, 0.568);
-  color: rgb(255, 255, 255);
+  color: #ffc400;
 }
 .pinkbtnheading {
   color: #ff005a !important;
