@@ -3,7 +3,6 @@
 @import "https://fonts.googleapis.com/css?family=Marck+Script";
 * {
   font-family: "Poppins", sans-serif;
-
 }
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 .intro {
@@ -1419,15 +1418,16 @@ p.buttonscontent14 {
   color: rgba(0, 0, 0, 0.658);
   font-weight: 300;
 }
-#myModal{
+#myModal {
   z-index: 9999;
 }
-.btn-no{
-  background-color: rgba(17, 17, 17, 0.568);
-  color: rgb(238, 237, 237);
-  }
-.btn-no:hover{
+.btn-no {
   background-color: #ffc400;
+
+  color: rgb(238, 237, 237);
+}
+.btn-no:hover {
+  background-color: rgba(17, 17, 17, 0.568);
   color: #000;
 }
 .pinkbtnheading {
@@ -1436,7 +1436,7 @@ p.buttonscontent14 {
 .pinkbtnheading:hover {
   color: #000 !important;
 }
-.krma{
-color: rgb(255, 255, 255);
-font-weight: 500;
+.krma {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
