@@ -1179,7 +1179,7 @@ p.fotterlastcontent {
   font-size: 15px;
 }
 a.copyrightcontent {
-  color: rgba(0, 0, 0, 0.794);
+  color: #ff005a;
   font-weight: 300;
   font-size: 1em;
 }
@@ -1415,6 +1415,11 @@ p.buttonscontent14 {
 }
 .desc {
   font-size: x-small;
+  color: rgba(0, 0, 0, 0.658);
+  font-weight: 300;
+}
+.desc2 {
+  font-size: small;
   color: rgba(0, 0, 0, 0.658);
   font-weight: 300;
 }
