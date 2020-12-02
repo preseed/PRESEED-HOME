@@ -1452,3 +1452,6 @@ p.buttonscontent14 {
   font-size: xx-large;
   color: #ffd700;
 }
+.cross:hover{
+  cursor: pointer;
+}
