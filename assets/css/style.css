@@ -1491,12 +1491,18 @@ details[open] summary ~ * {
 details > summary::after {
   position: absolute;
   content: "+";
-  right: 20px;
+  left: 20px;
+}
+details > .iconbtn::after {
+  position: absolute;
+  content: "+";
+  left: 20px;
+  top: 15px;
 }
 details[open] > summary::after {
   position: absolute;
   content: "-";
-  right: 20px;
+  left: 20px;
 }
 details > summary::-webkit-details-marker {
   display: none;
