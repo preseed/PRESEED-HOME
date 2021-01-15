@@ -203,11 +203,11 @@ ul.links {
 }
 .yoga_quote {
   color: #fff;
-  text-shadow: 1px 1px 1px #0000009d;
+  text-shadow: 1px 1px 2px #000000dc;
   letter-spacing: 2px;
   font-weight: 300;
   line-height: 180%;
-  font-size: 1em;
+  font-size: 1.1em;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -887,6 +887,10 @@ strong.green {
 a.toplinkcenter {
   text-decoration: none;
   color: #ffd700;
+}
+a.toplinkcenter:hover {
+  text-decoration: none;
+  text-shadow: 0 0 9px yellow;
 }
 
 span.journycontent {
