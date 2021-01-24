@@ -1535,7 +1535,7 @@ details > summary::-webkit-details-marker {
   background-color: rgba(255, 255, 255, 0.986);
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px 2px rgb(216, 216, 216);
+  box-shadow: 0.5px 0.5px 0.5px 1px rgb(216, 216, 216);
 }
 .yellow-btn {
   background-color: rgb(255, 238, 0);
