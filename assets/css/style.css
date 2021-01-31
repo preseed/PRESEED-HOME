@@ -4,6 +4,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 .intro {
   width: 100%;
@@ -1535,6 +1536,7 @@ details > summary::-webkit-details-marker {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0.5px 0.5px 0.5px 1px rgb(216, 216, 216);
+  margin-bottom: 10px;
 }
 .yellow-btn {
   background-color: rgb(255, 238, 0);
